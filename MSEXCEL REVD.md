@@ -20,13 +20,13 @@ Untuk memasuki Microsoft Excel 2013 menggunakan Windows 10, cara terstrukturnya 
 #### 1.2 Menu dan Icon Bar
 
 Menu dalam Microsoft Excel terdiri dari:
-- Home
-- Insert
-- Page Layout
-- Formulas
-- Data
-- Review
-- View
+-Home
+-Insert
+-Page Layout
+-Formulas
+-Data
+-Review
+-View
 
 Icon bar merupakan symbol/command yang terdapat dalam masing-masing menu utama Microsoft Excel, contohnya dalam menu Insert icon-icon seperti pivot table, table, picture, shapes, smartart, sparklines, chart dan seterusnya.
 
@@ -108,16 +108,16 @@ Contoh untuk penggunaan Alignment:
 4. Klik OK
 
 Pada menu Alignment juga terdapat pengaturan lain, yaitu:
-- Wrap Text: Untuk membuat panggalan teks tertingkat kebawah pada kolom
-- Shrink to fit: Untuk membuat ukuran teks berubah otomatis mengikuti besar kecilnya kolom
-- Merge Cells: Untuk menggabungkan baris atau kolom
-- Orientation: Untuk membuat teks berdiri vertical
+-Wrap Text: Untuk membuat panggalan teks tertingkat kebawah pada kolom
+-Shrink to fit: Untuk membuat ukuran teks berubah otomatis mengikuti besar kecilnya kolom
+-Merge Cells: Untuk menggabungkan baris atau kolom
+-Orientation: Untuk membuat teks berdiri vertical
 
 **C. Border**
 
 Sub menu Border pada Format Cells fungsinya untuk membuat garid tepi/border. Biasanya digunakan untuk membuat table.
 
-Contoh cara menggunakan Format Cells – Border:
+Contoh cara menggunakan Format Cells - Border:
 1. Blok area yang akan dibuatkan garis tepi
 2. Klik kanan pilih Format Cells, kemudian pilih Border
 3. Pilih jenis garis/border pada Style
@@ -136,15 +136,15 @@ Contoh cara menggunakan Freeze Panes:
 4. Silahkan scrool keatas/kebawah
 
 Pada menu Freeze Panes, terdapat 3 sub menu:
-- Freeze panes: Mengunci baris & kolom
-- Freeze top rows: Mengunci baris tertentu
-- Freeze first column: Mengunci kolom tertentu
+-Freeze panes: Mengunci baris & kolom
+-Freeze top rows: Mengunci baris tertentu
+-Freeze first column: Mengunci kolom tertentu
 
 #### 1.8 Praktik Pertemuan Ke 1
 
 Buatlah table data seperti yang ada pada modul
 Keterangan:
-- Gunakan Freeze Panes pada header
+-Gunakan Freeze Panes pada header
 
 ---
 
@@ -181,13 +181,13 @@ Microsoft Excel merupakan aplikasi pengolah angka termasuk penggunaan rumus-rumu
 
 **Operasi Matematika**
 
-| Operasi | Simbol di Excel | Fungsi |
+|Operasi | Simbol di Excel | Fungsi |
 |---------|-----------------|--------|
-| Pangkat | ^ | Untuk melakukan proses pemangkatan |
-| Kali | * | Untuk melakukan proses perkalian |
-| Tambah | + | Untuk melakukan proses penjumlahan |
-| Bagi | / | Untuk melakukan proses pembagian |
-| Kurang | - | Untuk melakukan proses pengurangan |
+|Pangkat | ^ | Untuk melakukan proses pemangkatan |
+|Kali | * | Untuk melakukan proses perkalian |
+|Tambah | + | Untuk melakukan proses penjumlahan |
+|Bagi | / | Untuk melakukan proses pembagian |
+|Kurang | - | Untuk melakukan proses pengurangan |
 
 #### 3.1 Menggunakan Rumus Pangkat (^)
 
@@ -220,8 +220,8 @@ Contoh penggunaan rumus kurang pada Microsoft Excel.
 Gunakan rumus operasi metematika sesuai kolom perintah pada table di modul.
 
 Ketentuan:
-- Kolom Modal: Menggunakan rumus operasi matematika kali F2 = C2*D2
-- Kolom Keuntungan: Menggunakan rumus operasi matematika kurang G2 = E2-D2
+-Kolom Modal: Menggunakan rumus operasi matematika kali F2 = C2*D2
+-Kolom Keuntungan: Menggunakan rumus operasi matematika kurang G2 = E2-D2
 
 ---
 
@@ -233,20 +233,20 @@ Fungsi statistic biasa digunakan untuk mencari nilai tertinggi, nilai paling ren
 
 #### 4.1 Menggunakan Rumus Min & Max
 
-| Fungsi | Keterangan | Rumus |
+|Fungsi | Keterangan | Rumus |
 |--------|------------|-------|
-| MIN | Untuk mencari nilai terkecil / terendah | = Min (Cell… : Cell…) |
-| MAX | Untuk mencari nilai tertinggi / terbesar | = Max (Cell… : Cell…) |
+|MIN | Untuk mencari nilai terkecil / terendah | = Min (Cell… : Cell…) |
+|MAX | Untuk mencari nilai tertinggi / terbesar | = Max (Cell… : Cell…) |
 
 Contoh penggunaan fungsi Min dan Max.
 
 #### 4.2 Menggunakan Rumus SUM, SUMIF dan SUMIFS
 
-| Fungsi | Keterangan | Rumus |
+|Fungsi | Keterangan | Rumus |
 |--------|------------|-------|
-| SUM | Untuk Melakukan jumlah keseluruhan | = SUM (range:range) |
-| SUMIF | Untuk melakukan penjumlahan dengan kriteria tertentu | = SUMIF (range; criteria; [sum_range]) |
-| SUMIFS | Untuk melakukan penjumlahan dengan lebih dari satu criteria | = SUMIF (sum_range; criteria_range; criteria1;criteria_range2; creteria2;…) |
+|SUM | Untuk Melakukan jumlah keseluruhan | = SUM (range:range) |
+|SUMIF | Untuk melakukan penjumlahan dengan kriteria tertentu | = SUMIF (range; criteria; [sum_range]) |
+|SUMIFS | Untuk melakukan penjumlahan dengan lebih dari satu criteria | = SUMIF (sum_range; criteria_range; criteria1;criteria_range2; creteria2;…) |
 
 **A. Contoh Rumus SUM (Jumlah Keseluruhan)**
 
@@ -271,43 +271,43 @@ Pada Cell C14, masukkan rumus SUMIFS untuk mengetahui jumlah keseluruhan penjual
 
 Average digunakan untuk mencari nilai rata-rata
 
-| Fungsi | Keterangan | Rumus |
+|Fungsi | Keterangan | Rumus |
 |--------|------------|-------|
-| AVERAGE | Untuk mencari nilai rata-rata | = Average (Cell…:Cell…) |
+|AVERAGE | Untuk mencari nilai rata-rata | = Average (Cell…:Cell…) |
 
 Contoh penggunaan rumus Average pada sebuah table data:
 Pada Cell G3 masukkan rumus: `= AVERAGE(C3:F3)` maka hasilnya Rp. 540.000. Artinya rata-rata pendapatan per pekan selama bulan Januari adalah Rp. 540.000.
 
 #### 4.4 Menggunakan Rumus Count, Counta, Countif, Countifs dan Countblank
 
-| Fungsi | Keterangan | Rumus |
+|Fungsi | Keterangan | Rumus |
 |--------|------------|-------|
-| COUNT | Untuk menghitung berapa banyak data / jumlah data | =COUNT (Cell…:Cell…) |
-| COUNTA | Untuk menghitung jumlah data baik angka maupun teks | =COUNTA (Cell…:Cell…) |
-| COUNTBLANK | Untuk menghitung jumlah cell yang kosong / blank | =COUNTBLANK(Cell…:Cell…) |
-| COUNTIF | Untuk mengetahui jumlah data dengan satu kriteria | =COUNTIF(Cell…:Cell…,Criteria) |
-| COUNTIFS | Untuk mengetahui jumlah data dengan lebih dari satu kriteria | =COUNTIFS(criteria_range1,creiteria1,[criteria_range2],[criteria2]…) |
+|COUNT | Untuk menghitung berapa banyak data / jumlah data | =COUNT (Cell…:Cell…) |
+|COUNTA | Untuk menghitung jumlah data baik angka maupun teks | =COUNTA (Cell…:Cell…) |
+|COUNTBLANK | Untuk menghitung jumlah cell yang kosong / blank | =COUNTBLANK(Cell…:Cell…) |
+|COUNTIF | Untuk mengetahui jumlah data dengan satu kriteria | =COUNTIF(Cell…:Cell…,Criteria) |
+|COUNTIFS | Untuk mengetahui jumlah data dengan lebih dari satu kriteria | =COUNTIFS(criteria_range1,creiteria1,[criteria_range2],[criteria2]…) |
 
 **A. Menggunakan Fungsi Count, Counta dan Countblank**
 
-- Pada Cell A10 masukkan rumus `=COUNT(A3:A9)` Untuk menghitung jumlah data transaksi berdasarkan kolom No.Transaksi. Hasilnya, jumlah data pada kolom No. Transaksi adalah 7.
-- Pada Cell C10 masukkan rumus `=COUNTA(C3:C9)` Untuk menghitung jumlah data berupa teks pada kolom nama barang. Hasilnya jumlah data pada kolom nama barang adalah 7.
-- Pada Cell F10 masukkan rumus `=COUNTBLANK(F3:F9)` Untuk menghitung jumlah cell kosong, hasilnya ada 4 cell kosong.
-- Pada Cell G10 masukkan rumus `=COUNTBLANK(G3:G9)` Untuk menghitung jumlah cell kosong, hasilnya ada 2 cell kosong.
+-Pada Cell A10 masukkan rumus `=COUNT(A3:A9)` Untuk menghitung jumlah data transaksi berdasarkan kolom No.Transaksi. Hasilnya, jumlah data pada kolom No. Transaksi adalah 7.
+-Pada Cell C10 masukkan rumus `=COUNTA(C3:C9)` Untuk menghitung jumlah data berupa teks pada kolom nama barang. Hasilnya jumlah data pada kolom nama barang adalah 7.
+-Pada Cell F10 masukkan rumus `=COUNTBLANK(F3:F9)` Untuk menghitung jumlah cell kosong, hasilnya ada 4 cell kosong.
+-Pada Cell G10 masukkan rumus `=COUNTBLANK(G3:G9)` Untuk menghitung jumlah cell kosong, hasilnya ada 2 cell kosong.
 
 **B. Menggunakan Fungsi COUNTIF**
 
-- Pada cell D10 masukkan rumus `=COUNTIF(D3:D9,"10")` rumus ini digunakan untuk menghitung jumlah cell yang berisi angka 10, hasilnya ada 4 cell yang berisi angka 10.
-- Pada cell D11 masukkan rumus `=COUNTIF(D3:D9,"<20")` Untuk menghitung cell yang berisi angka kurang dari 20.
-- Pada cell D11 masukkan rumus `=COUNTIF(D3:D9,"<15")` Untuk menghitung cell yang berisi angka kurang dari 15
-- Pada cell D11 masukkan rumus `=COUNTIF(D3:D9,">10")` Untuk menghitung cell yang berisi angka lebih besar dari 10.
+-Pada cell D10 masukkan rumus `=COUNTIF(D3:D9,"10")` rumus ini digunakan untuk menghitung jumlah cell yang berisi angka 10, hasilnya ada 4 cell yang berisi angka 10.
+-Pada cell D11 masukkan rumus `=COUNTIF(D3:D9,"<20")` Untuk menghitung cell yang berisi angka kurang dari 20.
+-Pada cell D11 masukkan rumus `=COUNTIF(D3:D9,"<15")` Untuk menghitung cell yang berisi angka kurang dari 15
+-Pada cell D11 masukkan rumus `=COUNTIF(D3:D9,">10")` Untuk menghitung cell yang berisi angka lebih besar dari 10.
 
 Selain contoh diatas, anda juga dapat menghitung jumlah cell yang berisi nama barang tertentu, misalnya kita ingin mencari tahu berapa cell yang beri kata "Lenovo Idepad 10" pada kolom nama barang, maka pada cell C11 masukkan rumus `=COUNTIF(C3:C9,"Asus Aspire")`
 
 **C. Menggunakan Fungsi COUNTIFS**
 
-- Pada Cell F13 masukkan rumus: `=COUNTIFS(E2:E11;"BANDUNG";F2:F11;"DIKIRIM")` untuk mengetahui produk yang sudah dikirim ke kota Bandung hasilnya adalah 2.
-- Pada Cell F14 masukkan rumus: `=COUNTIFS(E2:E11;"BANDUNG";F2:F11;"BELUM")` untuk mengetahui produk yang belum dikirim ke kota Bandung hasilnya adlaah 3.
+-Pada Cell F13 masukkan rumus: `=COUNTIFS(E2:E11;"BANDUNG";F2:F11;"DIKIRIM")` untuk mengetahui produk yang sudah dikirim ke kota Bandung hasilnya adalah 2.
+-Pada Cell F14 masukkan rumus: `=COUNTIFS(E2:E11;"BANDUNG";F2:F11;"BELUM")` untuk mengetahui produk yang belum dikirim ke kota Bandung hasilnya adlaah 3.
 
 #### 4.5 Praktik Pertemuan Ke 4
 
@@ -323,28 +323,28 @@ Selesaikanlah tabel yang ada di modul dengan menggunakan rumus yang telah dipela
 
 ### 5. Menggunakan Rumus Fungsi Text (Left, Mid, Right)
 
-| Fungsi | Keterangan | Contoh Penggunaan Rumus |
+|Fungsi | Keterangan | Contoh Penggunaan Rumus |
 |--------|------------|--------------------------|
-| LEFT | Untuk mengambil beberapa Karakter dari kiri | = LEFT (Text;Num_Chars) |
-| MID | Untuk mengambil beberapa karakter dari tengah | = MID (Text;Start_Num;Num_Chars) |
-| RIGHT | Untuk mengambil beberapa karakter dari kanan | = RIGHT(Text; Num_Chars) |
+|LEFT | Untuk mengambil beberapa Karakter dari kiri | = LEFT (Text;Num_Chars) |
+|MID | Untuk mengambil beberapa karakter dari tengah | = MID (Text;Start_Num;Num_Chars) |
+|RIGHT | Untuk mengambil beberapa karakter dari kanan | = RIGHT(Text; Num_Chars) |
 
 #### 5.1 Menggunakan Fungsi LEFT
 
 Pada cell B2 masukkan rumus `=LEFT(A2,3)` Rumus tersebut digunakan untuk mengambil tiga digit dari kiri.
 
 Keterangan:
-- A2 merupakan cell kunci
-- 3 merupakan jumlah karakter yang diambil
+-A2 merupakan cell kunci
+-3 merupakan jumlah karakter yang diambil
 
 #### 5.2 Menggunakan Fungsi MID
 
 Pada cell C2 masukkan rumus `=MID(A2,5,6)` Rumus tersebut digunakan untuk mengambil digit dari tengah.
 
 Keterangan:
-- A2 merupakan cell kunci
-- 5 Merupakan karakter pertama dari karakter yang akan diambil
-- 6 Jumlah karakter yang diambil
+-A2 merupakan cell kunci
+-5 Merupakan karakter pertama dari karakter yang akan diambil
+-6 Jumlah karakter yang diambil
 
 #### 5.3 Menggunakan Fungsi RIGHT
 
@@ -355,9 +355,9 @@ Pada cell D2 masukkan rumus `=RIGHT(A2,3)` Rumus tersebut digunakan untuk mengam
 Kerjakan menggunakan fungsi LEFT, MID dan RIGHT
 
 Ketentuan:
-- Tahun masuk diambil 8 digit dari kiri
-- Kode jabatan diambil 3 digit setelah urutan angka ke 8
-- Urut karyawan diambil 3 digit dari kiri
+-Tahun masuk diambil 8 digit dari kiri
+-Kode jabatan diambil 3 digit setelah urutan angka ke 8
+-Urut karyawan diambil 3 digit dari kiri
 
 **TUGAS ASISTENSI**
 
@@ -371,14 +371,14 @@ Selesaikanlah tabel sesuai dengan ketentuan, buatlah tahapan pembuatannya!
 
 **Operator Logika:**
 
-| Operator | Keterangan |
+|Operator | Keterangan |
 |----------|------------|
-| = | Sama dengan |
-| <> | Tidak sama dengan |
-| < | Lebih kecil |
-| > | Lebih besar |
-| <= | Lebih kecil sama dengan |
-| >= | Lebih besar sama dengan |
+|= | Sama dengan |
+|<> | Tidak sama dengan |
+|< | Lebih kecil |
+|> | Lebih besar |
+|<= | Lebih kecil sama dengan |
+|>= | Lebih besar sama dengan |
 
 #### 6.1 Menggunakan Rumus IF
 
@@ -443,9 +443,9 @@ Pada cell E2 hasilnya DITERIMA, padahal nilai Tes Potensi kurang dari 85, tetapi
 #### 6.4 Praktik Pertemuan Ke 6
 
 Petunjuk Pengerjaan:
-- Kolom Hasil Diisi dengan keterangan:
-- Diterima apabila memiliki syarat; umur kurang atau sama dengan 32, Pendidikan S1, Bisa Bahasa Inggris, IPK 4.00, Nilai Potensi minimal 80, kemampuan wawancara bagus.
-- Tidak Diterima, apabila ada salah satu syarat tidak terpenuhi.
+-Kolom Hasil Diisi dengan keterangan:
+-Diterima apabila memiliki syarat; umur kurang atau sama dengan 32, Pendidikan S1, Bisa Bahasa Inggris, IPK 4.00, Nilai Potensi minimal 80, kemampuan wawancara bagus.
+-Tidak Diterima, apabila ada salah satu syarat tidak terpenuhi.
 
 **TUGAS ASISTENSI**
 
@@ -466,8 +466,8 @@ Rumus VLOOKUP:
 Tekan F4 pada Keyboard
 
 Keterangan rumus:
-- X: Merupakan cell kunci
-- C: Nomor Kolom pada table reference
+-X: Merupakan cell kunci
+-C: Nomor Kolom pada table reference
 
 Contoh penggunaan fungsi Vlookup:
 Pada cell E2, masukkan rumus:
@@ -482,8 +482,8 @@ Rumus HLOOKUP:
 Tekan F4 pada Keyboard
 
 Keterangan rumus:
-- X: Merupakan cell kunci
-- C: Nomor Kolom pada table reference
+-X: Merupakan cell kunci
+-C: Nomor Kolom pada table reference
 
 Contoh penggunaan rumus HLOOKUP:
 Pada cell F2, masukkan rumus:
@@ -497,17 +497,17 @@ Rumus:
 `=VLOOKUP(LEFT(X,N), Blok Tabel Reference, C,0))`
 
 Keterangan:
-- X = Cell Kunci
-- N = Jumlah Karakter yang diambil blok table reference
-- C = Jumlah kolom pada table reference
+-X = Cell Kunci
+-N = Jumlah Karakter yang diambil blok table reference
+-C = Jumlah kolom pada table reference
 
 Contoh:
 Pada cell B2 masukkan rumus:
 `=VLOOKUP(LEFT(A2,3),$A$8:$B$11,2,0))`
 
-- Rumus Left untuk mengambil 3 karakter pada kolom A2 yaitu MCN
-- Table reference
-- Kolom 2 pada table reference
+-Rumus Left untuk mengambil 3 karakter pada kolom A2 yaitu MCN
+-Table reference
+-Kolom 2 pada table reference
 
 **B. VLOOKUP dengan MID**
 
@@ -515,18 +515,18 @@ Rumus:
 `=VLOOKUP(MID(X,M,N), Blok Table Reference, C,0))`
 
 Keterangan:
-- X = Cell Kunci
-- M = Hitungan karakter dari kiri ke jumlah karakter yang diambil
-- N = Jumlah karakter yang diambil blok table reference
-- C = Jumlah kolom pada table reference
+-X = Cell Kunci
+-M = Hitungan karakter dari kiri ke jumlah karakter yang diambil
+-N = Jumlah karakter yang diambil blok table reference
+-C = Jumlah kolom pada table reference
 
 Contoh penggabungan VLOOKUP dengan MID:
 Pada cell C2 masukkan rumus:
 `=VLOOKUP(MID(A2,5,5),$A$8:$B$11,2,0))`
 
-- Rumus MID untuk mengambil 5 karakter pada kolom A2 yaitu 1350K
-- Table reference
-- Kolom 2 pada teble reference
+-Rumus MID untuk mengambil 5 karakter pada kolom A2 yaitu 1350K
+-Table reference
+-Kolom 2 pada teble reference
 
 **C. VLOOKUP dengan RIGHT**
 
@@ -534,17 +534,17 @@ Rumus:
 `=VLOOKUP(RIGHT(X,N), Blok Table Reference, C,0))`
 
 Keterangan:
-- X = Cell Kunci
-- N = Jumlah karakter yang diambil blok table reference
-- C = Jumlah kolom pada table reference
+-X = Cell Kunci
+-N = Jumlah karakter yang diambil blok table reference
+-C = Jumlah kolom pada table reference
 
 Contoh penggabungan VLOOKUP dengan RIGHT:
 Pada cell C2 masukkan rumus:
 `=VLOOKUP(RIGHT(A2,3),$E$2:$F$5,2,0))`
 
-- Rumus RIGHT untuk mengambil 3 karakter pada kolom A2 yaitu 20P
-- Table reference
-- Kolom 2 pada table reference
+-Rumus RIGHT untuk mengambil 3 karakter pada kolom A2 yaitu 20P
+-Table reference
+-Kolom 2 pada table reference
 
 ## 7. Vlookup, Hlookup, Penggabungan Dengan String
 
@@ -559,8 +559,8 @@ Rumus VLOOKUP:
 Tekan F4 pada Keyboard
 
 Keterangan rumus:
-- X : Merupakan cell kunci
-- C : Nomor Kolom pada table reference
+-X : Merupakan cell kunci
+-C : Nomor Kolom pada table reference
 
 Contoh penggunaan fungsi Vlookup:
 
@@ -581,8 +581,8 @@ Rumus HLOOKUP:
 Tekan F4 pada Keyboard
 
 Keterangan rumus:
-- X : Merupakan cell kunci
-- C : Nomor Kolom pada table reference
+-X : Merupakan cell kunci
+-C : Nomor Kolom pada table reference
 
 Contoh penggunaan rumus HLOOKUP:
 
@@ -602,9 +602,9 @@ Rumus:
 ```
 
 Keterangan:
-- X = Cell Kunci
-- N = Jumlah Karakter yang diambil blok table reference
-- C = Jumlah kolom pada table reference
+-X = Cell Kunci
+-N = Jumlah Karakter yang diambil blok table reference
+-C = Jumlah kolom pada table reference
 
 Contoh:
 
@@ -612,9 +612,9 @@ Pada cell B2 masukkan rumus:
 ```
 =VLOOKUP(LEFT(A2,3),$A$8:$B$11,2,0)
 ```
-- Rumus Left untuk mengambil 3 karakter pada kolom A2 yaitu MCN
-- Table reference
-- Kolom 2 pada table reference
+-Rumus Left untuk mengambil 3 karakter pada kolom A2 yaitu MCN
+-Table reference
+-Kolom 2 pada table reference
 
 #### B. VLOOKUP dengan MID
 
@@ -624,10 +624,10 @@ Rumus:
 ```
 
 Keterangan:
-- X = Cell Kunci
-- M = Hitungan karakter dari kiri ke jumlah karakter yang diambil
-- N = Jumlah karakter yang diambil blok table reference
-- C = Jumlah kolom pada table reference
+-X = Cell Kunci
+-M = Hitungan karakter dari kiri ke jumlah karakter yang diambil
+-N = Jumlah karakter yang diambil blok table reference
+-C = Jumlah kolom pada table reference
 
 Contoh penggabungan VLOOKUP dengan MID:
 
@@ -635,9 +635,9 @@ Pada cell C2 masukkan rumus:
 ```
 =VLOOKUP(MID(A2,5,5),A8:$B$11,2,0)
 ```
-- Rumus MID untuk mengambil 5 karakter pada kolom A2 yaitu 1350K
-- Table reference
-- Kolom 2 pada teble reference
+-Rumus MID untuk mengambil 5 karakter pada kolom A2 yaitu 1350K
+-Table reference
+-Kolom 2 pada teble reference
 
 #### C. VLOOKUP dengan RIGHT
 
@@ -647,9 +647,9 @@ Rumus:
 ```
 
 Keterangan:
-- X = Cell Kunci
-- N = Jumlah karakter yang diambil blok table reference
-- C = Jumlah kolom pada table reference
+-X = Cell Kunci
+-N = Jumlah karakter yang diambil blok table reference
+-C = Jumlah kolom pada table reference
 
 Contoh penggabungan VLOOKUP dengan RIGHT:
 
@@ -657,9 +657,9 @@ Pada cell C2 masukkan rumus:
 ```
 =VLOOKUP(RIGHT(A2,3),E2:F5,2,0)
 ```
-- Rumus RIGHT untuk mengambil 3 karakter pada kolom A2 yaitu 20P
-- Table reference
-- Kolom 2 pada table reference
+-Rumus RIGHT untuk mengambil 3 karakter pada kolom A2 yaitu 20P
+-Table reference
+-Kolom 2 pada table reference
 
 ### 7.4 Menggabungkan HLOOKUP dengan STRING (LEFT, MID, RIGHT)
 
@@ -667,21 +667,21 @@ Penggunaan gabungan HLOOKUP dengan STRING (LEFT, MID, RIGHT) tidak jauh berbeda 
 
 Untuk itu pada sub bahasan penggabungan HLOOKUP dengan STRING akan dijelaskan satu persatu contoh penggunaan HLOOKUP + LEFT, HLOOKUP + MID, HLOOKUP + RIGHT.
 
-- **HLOOKUP + LEFT** pada cell B2
+-**HLOOKUP + LEFT** pada cell B2
 
 Rumus:
 ```
 =HLOOKUP(LEFT(A2;3),A9:E10;2;0)
 ```
 
-- **HLOOKUP + MID** pada cell C2
+-**HLOOKUP + MID** pada cell C2
 
 Rumus:
 ```
 =HLOOKUP(MID(A2;4;4);A13:F14;2;0)
 ```
 
-- **HLOOKUP + RIGHT** pada cell C2
+-**HLOOKUP + RIGHT** pada cell C2
 
 Rumus:
 ```
@@ -691,10 +691,10 @@ Rumus:
 ### 7.5 Praktik Pertemuan Ke 7
 
 Keterangan:
-- Jabatan diisi menggunakan fungsi IF dan STRING MID, jika ADM maka jabatan Staf Administrasi, jika TPD maka jabatan Tenaga Pendidik
-- Gapok diisi menggunakan rumus VLOOKUP dengan table reference adalah table Gaji
-- Potongan Diisi menggunakan rumus HLOOKUP dengan table reference Tabel Potongan
-- Jumlah Potongan Gapok dikali Potongan dan Gaji Bersih adalah Gapok dikurangi jumlah potongan
+-Jabatan diisi menggunakan fungsi IF dan STRING MID, jika ADM maka jabatan Staf Administrasi, jika TPD maka jabatan Tenaga Pendidik
+-Gapok diisi menggunakan rumus VLOOKUP dengan table reference adalah table Gaji
+-Potongan Diisi menggunakan rumus HLOOKUP dengan table reference Tabel Potongan
+-Jumlah Potongan Gapok dikali Potongan dan Gaji Bersih adalah Gapok dikurangi jumlah potongan
 
 ## 8. FILTER & PIVOT Table
 
@@ -703,26 +703,26 @@ Pivot table adalah cara membuat laporan atau meringkas informasi table atau daft
 ### 8.1 Langkah-langkah Membuat Pivot Table
 
 1. Siapkan table data, misalnya seperti dibawah ini:
-   [*Gambar table data*]
+ [*Gambar table data*]
 
 2. Blok table data tersebut, klik insert, pilih Pivot Table
 
 3. Nantinya akan muncul kotak dialog.
-   Pilih New Worksheet, Pilih OK
+ Pilih New Worksheet, Pilih OK
 
 4. Nantinya akan muncul tampilan Pivot seperti dibawah ini
-   [*Gambar tampilan pivot*]
+ [*Gambar tampilan pivot*]
 
 5. Drag (geser dengan menekan mouse) field Kota ke Column, Barang ke Labels, dan Pendapatan ke Values.
 
 Sampai langkah ini, proses pembuatan Pivot Tabel selesai. Langkah selanjutnya menjalankan fungsi-fungsi Pivot seperti contoh dibawah ini:
 
-- Klik Row Table, nantinya akan muncul filter label, misalnya kita akan menampilkan label Sepatu, maka pilih centang label sepatu saja. Kemudian klik OK
+-Klik Row Table, nantinya akan muncul filter label, misalnya kita akan menampilkan label Sepatu, maka pilih centang label sepatu saja. Kemudian klik OK
 
-- Sekarang klik Column Table, kemudian pilih Kota yang akan ditampilkan, untuk contoh kita pilih kota Bogor dan Sleman, Klik OK
+-Sekarang klik Column Table, kemudian pilih Kota yang akan ditampilkan, untuk contoh kita pilih kota Bogor dan Sleman, Klik OK
 
-- Tampilan Hasil data Pivot seperti dibawah ini:
-  [*Gambar hasil pivot*]
+-Tampilan Hasil data Pivot seperti dibawah ini:
+ [*Gambar hasil pivot*]
 
 Data yang ditampilkan berdasarkan label sepatu, dan kota Bogor & Sleman. Dan total pendapatan dari dua kota tersebut sudah tampil otomatis.
 
@@ -730,24 +730,24 @@ Data yang ditampilkan berdasarkan label sepatu, dan kota Bogor & Sleman. Dan tot
 
 Sort dan Filter digunakan untuk mengurutkan data dari yang terkecil ke yang besar, atau sebaliknya. Mengurutkan data secara Ascending atau Descending.
 
-#### A. Mengurutkan Data Secara Ascending (A – Z)
+#### A. Mengurutkan Data Secara Ascending (A - Z)
 
 Langkah-langkahnya:
 
 1. Blok table data, klik kanan pilih Sort, kemudian pilih Costum Sort
 
 2. Pada Sort by pilih data yang akan diurutkan, untuk contoh data yang diurutkan adalah Nama
-   Pada Sort on biarkan Values, pada Order pilih A to Z karena kita akan mengurutkan data nama secara berurutan dari A ke Z. Kemudian Klik OK
+ Pada Sort on biarkan Values, pada Order pilih A to Z karena kita akan mengurutkan data nama secara berurutan dari A ke Z. Kemudian Klik OK
 
 3. Maka hasilnya, data nama akan berurutan secara ascending dari A ke Z
 
-#### B. Mengurutkan Data Secara Descending (Z –A)
+#### B. Mengurutkan Data Secara Descending (Z -A)
 
 Langkah-langkahnya:
 
 1. Blok table, kemudian klik kanan pilih Sort, pilih Custom Sort, pada Sort By pilih Rangking, kemudian klik OK
 
-2. Hasilnya urutan rangking sudah tersusun dari 1 – 15
+2. Hasilnya urutan rangking sudah tersusun dari 1 - 15
 
 #### C. Mengurutkan Data pada Pivot Table
 
@@ -763,5 +763,5 @@ Buatlah Pivot table berdasarkan table data dibawah ini:
 [*Gambar table data*]
 
 Keterangan:
-- Urutkan kota berdasarkan penjualan dari sales terbanyak ke terkecil
-- Urutkan pendapatan bersih dari terbesar ke terkecil
+-Urutkan kota berdasarkan penjualan dari sales terbanyak ke terkecil
+-Urutkan pendapatan bersih dari terbesar ke terkecil
