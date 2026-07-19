@@ -1,4 +1,4 @@
-# REVDSTORE Projects
+# REVDSTORE PROJECT
 
 Dokumentasi fitur untuk semua project REVDSTORE. Setiap folder berisi penjelasan lengkap fitur dari masing-masing project.
 
