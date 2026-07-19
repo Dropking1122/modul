@@ -1,97 +1,100 @@
-# 📚 REVDTORE Projects - Fitur & Dokumentasi
+# REVDSTORE Projects
 
-Repositori publik untuk menampilkan fitur-fitur dari semua project REVDSTORE secara terpusat. Setiap project memiliki dokumentasi lengkap dengan gambar dan penjelasan detail.
-
----
-
-## 🚀 Daftar Project
-
-### 1️⃣ [POS-SUPPLIER](#)
-**Sistem Point of Sale (POS) untuk Supplier**
-
-Aplikasi POS lengkap dengan manajemen stok, transaksi, hutang pelanggan, dan laporan keuangan untuk supplier/toko retail.
-
-- ✅ Manajemen Produk & Stok
-- ✅ Point of Sale (POS) dengan keranjang belanja
-- ✅ Hutang & Transaksi Pelanggan
-- ✅ Laporan Penjualan & Profit
-- ✅ Dashboard Analytics
-
-📄 **[Baca Fitur Lengkap →](#)**
+Dokumentasi fitur untuk semua project REVDSTORE. Setiap folder berisi penjelasan lengkap fitur dari masing-masing project.
 
 ---
 
-### 2️⃣ [WHATSAPP BOT AOUTO ORDER](#)
-**🤖 WhatsApp Bot Penjualan Otomatis**
+## Daftar Project
 
-Bot WhatsApp siap pakai untuk menjual produk digital secara otomatis 24 jam non-stop dengan payment gateway terintegrasi.
+### [POS SUPPLIER](POS%20SUPPLIER/README.md)
 
-- ✅ Katalog Produk Otomatis
-- ✅ Pemesanan & Checkout via WhatsApp
-- ✅ Multi Metode Pembayaran (QRIS, Transfer, Saldo)
-- ✅ Stok Digital Otomatis
-- ✅ Admin Panel Web Lengkap
-- ✅ Notifikasi Real-time
+Sistem Point of Sale untuk supplier dan toko retail. Mencakup manajemen produk dan stok, transaksi kasir, pencatatan hutang pelanggan, laporan penjualan, dan backup database.
 
-📄 **[Baca Fitur Lengkap →](#)**
-
----
-
-### 3️⃣ [ABSENSI QR SEKOLAH](#)
-**📱 Aplikasi Absensi dengan QR Code**
-
-Sistem absensi modern menggunakan QR code untuk tracking kehadiran karyawan secara real-time.
-
-🔄 *Dokumentasi sedang dipersiapkan*
-
-📄 **[Dokumentasi →](#)**
+Fitur utama:
+- Manajemen produk dengan import/export Excel
+- Transaksi POS dengan dua tipe harga (grosir dan ecer)
+- Pencatatan hutang dan cicilan pelanggan
+- Laporan penjualan dan stok harian/bulanan/tahunan
+- Dashboard analitik dengan grafik dan notifikasi stok menipis
+- Dua level akses: Admin dan Kasir
 
 ---
 
-### 4️⃣ [WEBSITE SEKOLAH](#)
-**🌐 Website Project CLC**
+### [WHATSAPP BOT AUTO ORDER](WHATSAPP%20BOT%20AUTO%20ORDER/README.md)
 
-Platform web untuk mengelola project dan kolaborasi tim secara efisien.
+Bot WhatsApp untuk penjualan produk digital secara otomatis, aktif 24 jam tanpa perlu admin standby.
 
-🔄 *Dokumentasi sedang dipersiapkan*
-
-📄 **[Dokumentasi →](#)**
-
-
----
-### 5️⃣ [TELEGRAM BOT AUTO ORDER](#)
-**🌐 Telegram bot order otomatis**
-
-- ✅ Katalog Produk Otomatis
-- ✅ Pemesanan & Checkout via Telegram
-- ✅ Multi Metode Pembayaran (QRIS, Transfer, Saldo)
-- ✅ Stok Digital Otomatis
-- ✅ Admin Panel Web Lengkap
-- ✅ Notifikasi Real-time
-
-🔄 *Dokumentasi sedang dipersiapkan*
-
-📄 **[Dokumentasi →](#)**
-
+Fitur utama:
+- Katalog dan pemesanan langsung via WhatsApp
+- Bundling produk dengan harga spesial
+- Pembayaran QRIS otomatis, transfer bank, dan saldo akun
+- Voucher dan kode diskon
+- Pengiriman key/produk digital otomatis setelah pembayaran terkonfirmasi
+- Panel admin berbasis web (React + Tailwind CSS)
 
 ---
 
-## 📝 Cara Menggunakan Dokumentasi Ini
+### [ABSENSI QR SEKOLAH](ABSENSI%20QR%20SEKOLAH/README.md)
 
-1. **Pilih Project** yang ingin Anda pelajari dari daftar di atas
-2. **Baca FEATURES.md** untuk melihat fitur-fitur lengkap
-3. **Lihat Gambar** di folder `images/` untuk visualisasi
-4. **Baca Dokumen Lainnya** di folder `docs/` untuk info teknis
+Sistem absensi siswa berbasis QR Code untuk jenjang SD, SMP, SMA, dan SMK.
 
----
-
-## 📞 Kontak & Support
-
-Untuk informasi lebih lanjut tentang project atau fitur spesifik, silakan hubungi:
-- 📱 WhatsApp: [REVDSTORE](https://wa.me/6288214672165)
-- 📸 Instagram: [@revd.cloud](https://instagram.com/revdstore.app)
-- ✈️ Telegram: [@ValltzID](https://t.me/ValltzID)
+Fitur utama:
+- Scan QR Code untuk kehadiran masuk dan pulang
+- Status otomatis: Hadir, Terlambat, Alfa, Bolos
+- Notifikasi WhatsApp ke orang tua untuk setiap kejadian
+- Manajemen izin dengan unggah bukti dan persetujuan guru
+- Laporan dan rekap kehadiran dengan export Excel dan PDF
+- Tiga peran: Admin, Guru, dan Siswa
+- Dapat diinstall sebagai PWA di Android dan iOS
 
 ---
 
-**Last Updated:** JULI 2026
+### [OPENWRT TELEGRAM BOT](OPENWRT%20TELEGRAM%20BOT/README.md)
+
+Bot Telegram untuk monitoring dan manajemen router OpenWRT melalui sistem plugin shell script yang modular.
+
+Fitur utama:
+- Info sistem real-time: CPU, RAM, suhu, uptime
+- Statistik jaringan, speed test, dan ping test
+- Kontrol WiFi: on/off dan ganti password
+- Blokir/unblokir perangkat berdasarkan MAC address
+- Notifikasi saat ada perangkat baru terhubung
+- Backup konfigurasi dan update bot otomatis dari GitHub
+
+---
+
+### [TELEGRAM BOT AUTO ORDER](TELEGRAM%20BOT%20AUTO%20ORDER/README.md)
+
+Bot Telegram otomatis untuk penjualan produk digital, pemesanan, pembayaran, dan pengiriman tanpa perlu admin standby.
+
+Fitur utama:
+- Katalog produk dengan foto dan stok real-time
+- Proses pemesanan via inline keyboard
+- Pembayaran QRIS otomatis, transfer bank, dan saldo akun
+- Pengiriman produk digital otomatis setelah pembayaran terkonfirmasi
+- Panel admin via Telegram dengan command khusus
+- Laporan penjualan harian, mingguan, dan bulanan
+
+---
+
+### [MSEXCEL REVD](MSEXCEL%20REVD.md)
+
+Modul pelatihan Microsoft Excel 2013, mencakup delapan pertemuan dari dasar hingga tingkat menengah.
+
+Materi:
+- Jendela kerja, format cells, dan freeze panes
+- Grafik dan chart
+- Rumus operasi matematika dasar
+- Fungsi statistik: SUM, AVERAGE, COUNT, COUNTIF, COUNTIFS
+- Fungsi teks: LEFT, MID, RIGHT
+- Fungsi logika: IF, AND, OR
+- VLOOKUP dan HLOOKUP
+- Filter dan Pivot Table
+
+---
+
+## Kontak
+
+- WhatsApp: [REVDSTORE](https://wa.me/6288214672165)
+- Instagram: [@revd.cloud](https://instagram.com/revdstore.app)
+- Telegram: [@ValltzID](https://t.me/ValltzID)
