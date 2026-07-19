@@ -108,18 +108,9 @@ Sistem absensi siswa berbasis QR Code untuk jenjang SD, SMP, SMA, dan SMK.
 
 Pilih sesuai kebutuhan:
 
-- **Lokal / pengembangan** → lihat [INSTALL.md](INSTALL.md)
-- **VPS Ubuntu** → jalankan `bash install.sh`, atau lihat [INSTALL-VPS.md](INSTALL-VPS.md) untuk langkah manual
-- **STB Linux + Cloudflare Tunnel** → lihat [INSTALL-STB.md](INSTALL-STB.md)
-- **Menambah sekolah baru** → lihat [ONBOARDING.md](ONBOARDING.md)
+- **Lokal / pengembangan** 
+- **VPS**
+- **STB Linux + Cloudflare Tunnel** 
+- **Menambah sekolah baru** 
 
 ---
-
-## Akun Default (setelah seeder)
-
-| Peran | Email | Password |
-|---|---|---|
-| Admin | admin@sekolah.id | password |
-| Guru | guru@sekolah.id | password |
-
-> **Ganti password segera setelah login pertama.**
