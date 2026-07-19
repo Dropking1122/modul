@@ -77,22 +77,6 @@ Fitur utama:
 
 ---
 
-### [MSEXCEL REVD](MSEXCEL%20REVD.md)
-
-Modul pelatihan Microsoft Excel 2013, mencakup delapan pertemuan dari dasar hingga tingkat menengah.
-
-Materi:
-- Jendela kerja, format cells, dan freeze panes
-- Grafik dan chart
-- Rumus operasi matematika dasar
-- Fungsi statistik: SUM, AVERAGE, COUNT, COUNTIF, COUNTIFS
-- Fungsi teks: LEFT, MID, RIGHT
-- Fungsi logika: IF, AND, OR
-- VLOOKUP dan HLOOKUP
-- Filter dan Pivot Table
-
----
-
 ## Kontak
 
 - WhatsApp: [REVDSTORE](https://wa.me/6288214672165)
